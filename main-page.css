@@ -8,10 +8,6 @@ body {
   padding: 0;
 }
 
-.content {
-  flex: 1;
-}
-
 .top-section {
   position: relative;
   height: 360px;
@@ -43,6 +39,56 @@ body {
 .top-navbar h2,
 .top-navbar h6 {
   margin: 5px;
+}
+
+.homepage-content {
+  flex: 1;
+}
+
+.introduction-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.story-panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.sp-odds {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  padding: 10px;
+}
+
+.sp-evens {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
+
+.sp-img-odds img,
+.sp-img-evens img {
+  max-width: 300px;
+  height: auto;
+  padding: 10px;
+}
+
+.sp-text-odds,
+.sp-text-evens {
+  flex: 1;
+  padding: 20px;
+}
+
+a.story-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+
 }
 
 .bottom-navbar {
