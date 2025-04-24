@@ -174,16 +174,26 @@ nav a:hover {
   justify-content: center;
 }
 
-#sp1imgs {
+#spimgs {
   display: flex;
   margin-right: 10px;
   margin-bottom: 100px;
 }
 
-#sp1img1,
-#sp1img2 {
+/* story 1 */
+#spimg1,
+#spimg2 {
   object-fit: contain;
   width: 350px;
   height: 400px;
+
+}
+
+/* story 2 */
+#spimg3,
+#spimg4 {
+  object-fit: contain;
+  width: 350px;
+  height: 500px;
 
 }
