@@ -182,7 +182,9 @@ nav a:hover {
 
 /* story 1 */
 #spimg1,
-#spimg2 {
+#spimg2,
+#spimg5,
+#spimg6 {
   object-fit: contain;
   width: 350px;
   height: 400px;
