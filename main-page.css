@@ -145,6 +145,10 @@ a.story-link {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 .bottom-navbar {
   justify-content: flex-end;
   background-color: #372B2B;
